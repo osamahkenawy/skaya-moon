@@ -1,0 +1,120 @@
+{
+  "slider": {
+    "slide1": {
+      "subtitle": "Your Gateway to Global Opportunities",
+      "title": "Skaya Moon Travel Services"
+    },
+    "slide2": {
+      "subtitle": "Study Abroad & Visa Services",
+      "title": "Your Dreams, Our Expertise"
+    },
+    "slide3": {
+      "subtitle": "Immigration & Travel Solutions",
+      "title": "Trusted Partner in UAE"
+    }
+  },
+  "about": {
+    "tagline": "Get to know us",
+    "title": "Plan Your Journey with Skaya Moon",
+    "description": "Skaya Moon offers comprehensive travel and visa services in UAE. From student abroad programs to immigration assistance, we help you achieve your global aspirations with professional guidance and trusted expertise.",
+    "points": [
+      "Expert visa and immigration services",
+      "Student abroad programs in top destinations",
+      "Comprehensive travel insurance coverage"
+    ],
+    "phone": "+971-522-2007-30",
+    "discount": "30%"
+  },
+  "services": {
+    "tagline": "Choose your service",
+    "title": "Our Service Categories",
+    "items": [
+      {
+        "title": "Study Abroad",
+        "description": "Expert guidance for studying in London, France, Russia, and Germany"
+      },
+      {
+        "title": "Immigration",
+        "description": "Professional immigration services to Canada, Australia, New Zealand, and Brazil"
+      },
+      {
+        "title": "Visa Services",
+        "description": "Comprehensive visa processing including Schengen, US, and UAE visas"
+      },
+      {
+        "title": "Travel Insurance",
+        "description": "Complete travel insurance coverage for worldwide destinations"
+      },
+      {
+        "title": "Consultation",
+        "description": "Expert consultation for all your travel and immigration needs"
+      }
+    ]
+  },
+  "features": [
+    {
+      "title": "Competitive Pricing",
+      "description": "We offer the most competitive rates for all visa and immigration services in UAE."
+    },
+    {
+      "title": "Expert Consultation",
+      "description": "Our experienced team provides professional guidance for all your travel needs."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From student visas to immigration, we handle all your travel and visa requirements."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Successful Visas",
+      "count": 1250
+    },
+    {
+      "label": "Students Abroad",
+      "count": 680
+    },
+    {
+      "label": "Happy Clients",
+      "count": 2100
+    },
+    {
+      "label": "Years Experience",
+      "count": 15
+    }
+  ],
+  "whyChoose": {
+    "toggleText": " Visa \n & Immigration",
+    "title": "Why Choose Skaya Moon",
+    "tagline": "Our benefit lists",
+    "description": "Skaya Moon is your trusted partner for all visa and immigration services in UAE. We provide expert consultation, professional documentation, and personalized support for your global aspirations.",
+    "features": [
+      {
+        "title": "Professional and Certified",
+        "description": "Our team consists of certified immigration consultants with years of experience in visa processing and student abroad programs."
+      },
+      {
+        "title": "Fast Visa Processing",
+        "description": "We ensure quick and efficient processing of all visa applications with regular updates throughout the process."
+      }
+    ]
+  },
+  "video": {
+    "tagline": "Ready for your global journey?",
+    "title": "Skaya Moon is UAE's Leading Visa and Immigration Consultancy",
+    "services": [
+      {
+        "title": "Student \n Visas"
+      },
+      {
+        "title": "Immigration \n Services"
+      },
+      {
+        "title": "Travel \n Insurance"
+      },
+      {
+        "title": "Visa \n Consultation"
+      }
+    ]
+  }
+}

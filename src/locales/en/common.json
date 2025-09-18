@@ -1,0 +1,73 @@
+{
+  "company": {
+    "name": "Skaya Moon",
+    "tagline": "Your Gateway to Global Opportunities",
+    "description": "Skaya Moon is your trusted travel partner in UAE, specializing in booking tickets, student abroad programs in London, France, Russia, and Germany. We provide visa services including Schengen and US visas, UAE tourist and residency visas, travel insurance, and immigration assistance to Canada, Australia, New Zealand, and Brazil."
+  },
+  "contact": {
+    "phone1": "+971-522-2007-30",
+    "phone2": "+971-558-4460-48",
+    "email1": "info@skyamoon.com",
+    "email2": "contact@skyamoon.com",
+    "address": "United Arab Emirates",
+    "country": "UAE"
+  },
+  "navigation": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "services": "Services",
+    "pages": "Pages",
+    "news": "News",
+    "contact": "Contact",
+    "about": "About Skaya Moon",
+    "studyDestinations": "Study Destinations",
+    "immigrationCountries": "Immigration Countries",
+    "visaServices": "Visa Services",
+    "studyAbroad": "Study Abroad",
+    "immigration": "Immigration",
+    "travelInsurance": "Travel Insurance",
+    "latestUpdates": "Latest Updates",
+    "visaUpdates": "Visa Updates"
+  },
+  "services": {
+    "studyAbroad": "Study Abroad",
+    "visaServices": "Visa Services",
+    "immigration": "Immigration",
+    "travelInsurance": "Travel Insurance",
+    "consultation": "Consultation",
+    "ticketBooking": "Ticket Booking"
+  },
+  "countries": {
+    "london": "London",
+    "france": "France",
+    "russia": "Russia",
+    "germany": "Germany",
+    "canada": "Canada",
+    "australia": "Australia",
+    "newZealand": "New Zealand",
+    "brazil": "Brazil",
+    "usa": "USA",
+    "uae": "UAE"
+  },
+  "buttons": {
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "getStarted": "Get Started",
+    "readMore": "Read More",
+    "viewAll": "View All"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "followUs": "Follow Us"
+  }
+}

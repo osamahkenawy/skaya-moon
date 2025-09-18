@@ -1,0 +1,73 @@
+{
+  "company": {
+    "name": "سكايا مون",
+    "tagline": "بوابتك إلى الفرص العالمية",
+    "description": "سكايا مون هو شريكك الموثوق للسفر في دولة الإمارات العربية المتحدة، متخصص في حجز التذاكر وبرامج الدراسة في الخارج في لندن وفرنسا وروسيا وألمانيا. نقدم خدمات التأشيرات بما في ذلك تأشيرات شنغن والولايات المتحدة، وتأشيرات الإمارات السياحية والإقامة، والتأمين على السفر، ومساعدة الهجرة إلى كندا وأستراليا ونيوزيلندا والبرازيل."
+  },
+  "contact": {
+    "phone1": "+971-522-2007-30",
+    "phone2": "+971-558-4460-48",
+    "email1": "info@skyamoon.com",
+    "email2": "contact@skyamoon.com",
+    "address": "دولة الإمارات العربية المتحدة",
+    "country": "الإمارات"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "destinations": "الوجهات",
+    "services": "الخدمات",
+    "pages": "الصفحات",
+    "news": "الأخبار",
+    "contact": "اتصل بنا",
+    "about": "حول سكايا مون",
+    "studyDestinations": "وجهات الدراسة",
+    "immigrationCountries": "دول الهجرة",
+    "visaServices": "خدمات التأشيرات",
+    "studyAbroad": "الدراسة في الخارج",
+    "immigration": "الهجرة",
+    "travelInsurance": "تأمين السفر",
+    "latestUpdates": "آخر التحديثات",
+    "visaUpdates": "تحديثات التأشيرات"
+  },
+  "services": {
+    "studyAbroad": "الدراسة في الخارج",
+    "visaServices": "خدمات التأشيرات",
+    "immigration": "الهجرة",
+    "travelInsurance": "تأمين السفر",
+    "consultation": "الاستشارة",
+    "ticketBooking": "حجز التذاكر"
+  },
+  "countries": {
+    "london": "لندن",
+    "france": "فرنسا",
+    "russia": "روسيا",
+    "germany": "ألمانيا",
+    "canada": "كندا",
+    "australia": "أستراليا",
+    "newZealand": "نيوزيلندا",
+    "brazil": "البرازيل",
+    "usa": "الولايات المتحدة",
+    "uae": "الإمارات"
+  },
+  "buttons": {
+    "contactUs": "اتصل بنا",
+    "learnMore": "اعرف المزيد",
+    "bookNow": "احجز الآن",
+    "getStarted": "ابدأ الآن",
+    "readMore": "اقرأ المزيد",
+    "viewAll": "عرض الكل"
+  },
+  "common": {
+    "language": "اللغة",
+    "english": "English",
+    "arabic": "العربية",
+    "home": "الرئيسية",
+    "about": "حول",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "followUs": "تابعنا"
+  }
+}

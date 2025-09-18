@@ -1,0 +1,50 @@
+{
+  "pageTitle": "Our Destinations",
+  "pageDescription": "Explore our study abroad and immigration destinations",
+  "studyDestinations": {
+    "title": "Study Abroad Destinations",
+    "description": "Discover top universities and educational opportunities worldwide"
+  },
+  "immigrationDestinations": {
+    "title": "Immigration Destinations", 
+    "description": "Find your new home with our immigration services"
+  },
+  "destinations": [
+    {
+      "london": {
+        "title": "London, UK",
+        "description": "World-class universities and rich cultural heritage",
+        "programs": "Bachelor's, Master's, PhD Programs",
+        "duration": "1-4 years",
+        "language": "English"
+      }
+    },
+    {
+      "france": {
+        "title": "France",
+        "description": "Excellence in education and European lifestyle",
+        "programs": "Engineering, Business, Arts Programs",
+        "duration": "1-3 years", 
+        "language": "French/English"
+      }
+    },
+    {
+      "germany": {
+        "title": "Germany",
+        "description": "Top-tier technical education and research opportunities",
+        "programs": "Engineering, Medicine, Research Programs",
+        "duration": "2-4 years",
+        "language": "German/English"
+      }
+    },
+    {
+      "russia": {
+        "title": "Russia", 
+        "description": "Affordable quality education in various fields",
+        "programs": "Medicine, Engineering, Arts Programs",
+        "duration": "4-6 years",
+        "language": "Russian/English"
+      }
+    }
+  ]
+}
