@@ -1,4 +1,5 @@
 import ContextProvider from "@/context/ContextProvider";
+import { SSRProvider } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "node_modules/swiper/swiper-bundle.min.css";
 import "tiny-slider/dist/tiny-slider.css";
@@ -17,9 +18,11 @@ import "@/styles/tevily-responsive.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <ContextProvider>
-      <Component {...pageProps} />
-    </ContextProvider>
+    <SSRProvider>
+      <ContextProvider>
+        <Component {...pageProps} />
+      </ContextProvider>
+    </SSRProvider>
   );
 };
 
