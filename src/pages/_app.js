@@ -1,5 +1,6 @@
 import ContextProvider from "@/context/ContextProvider";
 import { SSRProvider } from "react-bootstrap";
+import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "node_modules/swiper/swiper-bundle.min.css";
 import "tiny-slider/dist/tiny-slider.css";
@@ -17,6 +18,12 @@ import "@/styles/tevily.css";
 import "@/styles/tevily-responsive.css";
 
 const MyApp = ({ Component, pageProps }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <SSRProvider>
       <ContextProvider>

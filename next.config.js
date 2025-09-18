@@ -6,6 +6,16 @@ const nextConfig = {
     defaultLocale: 'en',
     localeDetection: false,
   },
+  // Suppress SSRProvider warnings in development
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
+  },
 }
 
 module.exports = nextConfig
