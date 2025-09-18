@@ -6,7 +6,8 @@ const ContextProvider = ({ children }) => {
   const [menuStatus, setMenuStatus] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
 
-  const { pathname, locale } = useRouter();
+  const router = useRouter();
+  const { pathname, locale } = router || {};
 
   const toggleMenu = (value) => {
     setMenuStatus((preMenuStatus) =>

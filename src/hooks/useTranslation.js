@@ -3,7 +3,7 @@ import { translations } from '../locales/translations';
 
 export const useTranslation = () => {
   const router = useRouter();
-  const { locale } = router;
+  const { locale } = router || {};
   const currentLocale = locale || 'en';
 
   // Translation function
@@ -15,7 +15,7 @@ export const useTranslation = () => {
       if (keyParts.length > 1) {
         const firstPart = keyParts[0];
         // Check if the first part is a valid namespace
-        if (translations[currentLocale] && translations[currentLocale][firstPart]) {
+        if (translations && translations[currentLocale] && translations[currentLocale][firstPart]) {
           namespace = firstPart;
           key = keyParts.slice(1).join('.');
         }
@@ -23,7 +23,7 @@ export const useTranslation = () => {
     }
 
     // Get the translation object for current locale
-    const localeTranslations = translations[currentLocale];
+    const localeTranslations = translations && translations[currentLocale];
     if (!localeTranslations) {
       return key;
     }
@@ -63,7 +63,9 @@ export const useTranslation = () => {
 
   // Change language function
   const changeLanguage = (newLocale) => {
-    router.push(router.asPath, router.asPath, { locale: newLocale });
+    if (router && router.push) {
+      router.push(router.asPath, router.asPath, { locale: newLocale });
+    }
   };
 
   return {
